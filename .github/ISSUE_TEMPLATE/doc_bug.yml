@@ -1,0 +1,24 @@
+name: Documentation bug
+description: Report incorrect or unclear documentation.
+labels: ["docs", "bug"]
+body:
+  - type: textarea
+    id: where
+    attributes:
+      label: Where is the issue?
+      description: Provide file path and section.
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong?
+    validations:
+      required: true
+
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix (optional)
+
