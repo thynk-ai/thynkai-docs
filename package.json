@@ -1,0 +1,15 @@
+{
+  "name": "@thynkai/docs",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "Public documentation hub for ThynkAI.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "lint": "node scripts/lint-docs.mjs",
+    "ci": "npm run lint"
+  }
+}
